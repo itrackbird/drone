@@ -168,7 +168,7 @@ pipeline:
 
 其中`workspace`设置镜像工作目录为`/go/src/wechat`，如果不设置为这样在编译过程中报`GOPATH`报错，具体参考Go语言编译使用教程。
 
-![drone](C:\Users\Administrator\Desktop\drone\drone.png)
+![drone](https://github.com/itrackbird/drone/blob/master/drone.png)
 
 其中，对于微信通知设置，登录[微信官网](https://work.weixin.qq.com/)注册企业账号，之后学习官方微信的使用教程，在`我的企业`下获取`corpid`，在`企业应用`下注册一个应用获取`AgentId`、`Secret`后，最后在`.drone.yml`的wechat工作流中填写对应值即可。其他场景使用参考官方使用教程，不在此做介绍。
 
